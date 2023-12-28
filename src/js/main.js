@@ -65,7 +65,6 @@ function renderGallery(images) {
     .join("");
   gallery.innerHTML = galleryHTML;
 }
-
 function clearGallery() {
   gallery.innerHTML = "";
 }
